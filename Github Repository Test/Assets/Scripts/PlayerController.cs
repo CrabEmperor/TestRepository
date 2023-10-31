@@ -4,15 +4,17 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    private Vector3 moveDirection;
+    private int speed = 10;
+
+    public void Jump()
     {
-        
+        //player can jump
     }
 
-    // Update is called once per frame
-    void Update()
+    public void Movement()
     {
-        
+        //moves the player
     }
+    //code for player movement done
 }
